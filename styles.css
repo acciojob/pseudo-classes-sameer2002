@@ -1,40 +1,28 @@
-/*  your css code here. If applicable */
-body{ 
+html{
+	background-color:rgb(135, 206, 235);
+}
+body{
 	background-color:skyblue;
 }
-.container p:first-child{
-	background-color: black;
+.a{
+	background-color:black;
 	color:white;
 }
-
-.container p:last-child{
+.b{
 	color:red;
 }
-
-.list-items .item:first-child,.item:last-child{
-    background-color: white;
-}
-
-.list-items .item:nth-child(2n){
-    background-color: gray;
-}
-
-.list-items>.item3{
-    background-color: pink;
-}
-p:first-child{
-	background-color:black;
-	color:rgb(255, 255, 255);
-}
-p:nth-child(4){
-	color:red;
-}
-li:nth-child(odd){
+li:first-child{
 	background-color:white;
 }
-li:nth-child(even){
-	background-color:slategray;
+li:nth-child(2){
+	background-color:stalegray;
 }
 li:nth-child(3){
 	background-color:pink;
+}
+li:nth-child(4){
+	background-color:stalegray;
+}
+li:nth-child(5){
+	background-color:white;
 }
